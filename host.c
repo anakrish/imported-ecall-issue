@@ -36,7 +36,7 @@ int main()
 
 	int c_b = 0;
 	enclave_b_add(enclave_b, &c_b, 5, 6);
-	printf("enclave_b_add(enclave_a, 5, 6) = %d\n", c_b);
+	printf("enclave_b_add(enclave_b, 5, 6) = %d\n", c_b);
 
 	if (c_a != c_b)
 	    printf("Values mismatch!!!!!!!!!\n\n");

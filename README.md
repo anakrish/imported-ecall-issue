@@ -20,7 +20,7 @@ Loaded enclave_b.signed.so
 
 Calling add function on both enclaves via host wrappers
 add(enclave_a, 5, 6) = 11
-enclave_b_add(enclave_a, 5, 6) = 11
+enclave_b_add(enclave_b, 5, 6) = 11
 Values matched
 
 Testing imported ecall via user library
