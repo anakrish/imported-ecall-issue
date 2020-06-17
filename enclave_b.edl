@@ -1,0 +1,7 @@
+enclave {
+   trusted {
+      public int subtract(int a, int b);
+   };
+
+   from "user_lib.edl" import *;
+};
